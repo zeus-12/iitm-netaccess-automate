@@ -13,5 +13,6 @@
 # @raycast.author Vishnu12
 # @raycast.authorURL https://raycast.com/Vishnu12
 
+# update the file name as required
 cd ~/netaccess-automate && npm start
 
