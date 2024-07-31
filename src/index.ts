@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 (async () => {
-  const browser = await puppeteer.launch({});
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
   await page.goto("https://netaccess.iitm.ac.in/account/login");
